@@ -1,0 +1,100 @@
+{
+  "persona_templates": {
+    "skeptical_low_education": {
+      "description": "Highly skeptical farmer with low education",
+      "characteristics": {
+        "education": "low",
+        "skepticism": 0.8,
+        "income": "low",
+        "response_patterns": [
+          "Kaun ho tum? Government se ho kya?",
+          "Pehle tum batao, ye sach hai ya jhooth?", 
+          "Kitne paise lagenge? Main gareeb kisan hun",
+          "Ye solar waala kya chakkar hai?",
+          "Mujhe koi paisa nahi dena, bilkul free mein chahiye"
+        ],
+        "concerns": ["trust", "cost", "complexity"],
+        "language_style": "simple_hindi",
+        "typical_objections": ["free_only", "government_distrust", "technical_confusion"]
+      }
+    },
+    "interested_medium_education": {
+      "description": "Moderately interested farmer with medium education",
+      "characteristics": {
+        "education": "medium",
+        "skepticism": 0.4,
+        "income": "medium",
+        "response_patterns": [
+          "Haan, sun raha hun. Batayiye details",
+          "90% subsidy matlab kitne paise bachenge?",
+          "Process kya hai? Kaise apply karna hai?",
+          "Kitne time mein lagega? Aur maintenance kaun karega?",
+          "Achha lagta hai. Aur bhi koi benefits hain?"
+        ],
+        "concerns": ["process", "maintenance", "roi"],
+        "language_style": "mixed_hindi_english",
+        "typical_objections": ["process_complexity", "maintenance_cost", "time_constraints"]
+      }
+    },
+    "progressive_high_education": {
+      "description": "Progressive farmer with high education",
+      "characteristics": {
+        "education": "high",
+        "skepticism": 0.2,
+        "income": "high", 
+        "response_patterns": [
+          "Interesting. What's the ROI on this investment?",
+          "Technical specifications kya hain is solar pump ke?",
+          "Government ki guarantee hai kya? Documentation milega?",
+          "Maintenance cost aur warranty period kya hai?",
+          "Haan, main interested hun. Next steps kya hain?"
+        ],
+        "concerns": ["roi", "technical_specs", "documentation"],
+        "language_style": "english_hindi_mix",
+        "typical_objections": ["documentation_requirements", "technical_complexity", "long_term_viability"]
+      }
+    }
+  },
+  
+  "sample_farmers": [
+    {
+      "name": "Ramesh Kumar",
+      "age": 45,
+      "education": "low",
+      "income": "low",
+      "location": "Meerut, UP",
+      "crops": ["wheat", "sugarcane"],
+      "land_size": "2 acres",
+      "skepticism": 0.8,
+      "govt_experience": "bad - was cheated before",
+      "family_size": 6,
+      "persona_type": "skeptical_low_education"
+    },
+    {
+      "name": "Suresh Patel",
+      "age": 38,
+      "education": "medium", 
+      "income": "medium",
+      "location": "Anand, Gujarat",
+      "crops": ["cotton", "groundnut"],
+      "land_size": "5 acres",
+      "skepticism": 0.4,
+      "govt_experience": "some success with Kisan Samman",
+      "family_size": 4,
+      "persona_type": "interested_medium_education"
+    },
+    {
+      "name": "Mahesh Singh",
+      "age": 35,
+      "education": "high",
+      "income": "high", 
+      "location": "Ludhiana, Punjab",
+      "crops": ["rice", "wheat"],
+      "land_size": "10 acres",
+      "skepticism": 0.2,
+      "govt_experience": "multiple successful schemes",
+      "family_size": 5,
+      "persona_type": "progressive_high_education"
+    }
+  ]
+}

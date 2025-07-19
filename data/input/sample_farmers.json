@@ -1,0 +1,52 @@
+{
+  "farmers": [
+    {
+      "id": "F001",
+      "name": "Ramesh Kumar", 
+      "age": 45,
+      "education": "low",
+      "income": "low",
+      "location": "Meerut, UP",
+      "crops": ["wheat", "sugarcane"],
+      "land_size": "2 acres",
+      "skepticism": 0.8,
+      "govt_experience": "bad - was cheated before",
+      "family_size": 6,
+      "phone": "+91-9876543210",
+      "preferred_language": "hindi",
+      "best_call_time": "morning"
+    },
+    {
+      "id": "F002", 
+      "name": "Suresh Patel",
+      "age": 38,
+      "education": "medium",
+      "income": "medium", 
+      "location": "Anand, Gujarat",
+      "crops": ["cotton", "groundnut"],
+      "land_size": "5 acres",
+      "skepticism": 0.4,
+      "govt_experience": "some success with Kisan Samman",
+      "family_size": 4,
+      "phone": "+91-9876543211",
+      "preferred_language": "gujarati_hindi",
+      "best_call_time": "evening"
+    },
+    {
+      "id": "F003",
+      "name": "Mahesh Singh",
+      "age": 35, 
+      "education": "high",
+      "income": "high",
+      "location": "Ludhiana, Punjab",
+      "crops": ["rice", "wheat"],
+      "land_size": "10 acres", 
+      "skepticism": 0.2,
+      "govt_experience": "multiple successful schemes",
+      "family_size": 5,
+      "phone": "+91-9876543212",
+      "preferred_language": "punjabi_hindi",
+      "best_call_time": "afternoon"
+    }
+  ]
+}
