@@ -1,0 +1,44 @@
+{
+  "session_id": "call_20250721_085717",
+  "farmer_profile": {
+    "farmer_id": "farmer_001",
+    "name": "राम कुमार",
+    "location": "Uttar Pradesh",
+    "farm_size": 3.5,
+    "crops": [
+      "wheat",
+      "rice"
+    ],
+    "annual_income": 150000,
+    "education_level": "Primary",
+    "age": 45,
+    "language_preference": "hi",
+    "skepticism": 0.8
+  },
+  "analysis": {
+    "farmer_sentiment": "negative",
+    "interest_level": "low",
+    "intro_clarity": true,
+    "objections": [
+      "trust_issues"
+    ],
+    "call_outcome": "failure",
+    "agent_effectiveness": 0.09999999999999998,
+    "conversation_flow": {
+      "engagement": "low",
+      "understanding": "clear"
+    },
+    "emotional_indicators": [
+      "negative"
+    ],
+    "farmer_responses": [
+      "Pehle confirm kar lo, sach mein government scheme hai ya nahi?",
+      "Pehle confirm kar lo, sach mein government scheme hai ya nahi?",
+      "Pehle confirm kar lo, sach mein government scheme hai ya nahi?",
+      "Pehle confirm kar lo, sach mein government scheme hai ya nahi?"
+    ]
+  },
+  "agent_version": 1,
+  "improved_version": 2,
+  "timestamp": "2025-07-21T08:57:22.503428"
+}

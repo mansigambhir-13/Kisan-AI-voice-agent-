@@ -1,0 +1,44 @@
+{
+  "session_id": "call_20250721_085723",
+  "farmer_profile": {
+    "farmer_id": "farmer_002",
+    "name": "सुरेश पटेल",
+    "location": "Gujarat",
+    "farm_size": 8.0,
+    "crops": [
+      "cotton",
+      "groundnut"
+    ],
+    "annual_income": 300000,
+    "education_level": "Secondary",
+    "age": 38,
+    "language_preference": "hi",
+    "skepticism": 0.4
+  },
+  "analysis": {
+    "farmer_sentiment": "neutral",
+    "interest_level": "high",
+    "intro_clarity": true,
+    "objections": [
+      "cost_concern"
+    ],
+    "call_outcome": "follow_up",
+    "agent_effectiveness": 0.7,
+    "conversation_flow": {
+      "engagement": "high",
+      "understanding": "clear"
+    },
+    "emotional_indicators": [
+      "neutral"
+    ],
+    "farmer_responses": [
+      "Solar pump? Kitne paisa lagega aur kaise kaam karta hai?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?"
+    ]
+  },
+  "agent_version": 2,
+  "improved_version": 3,
+  "timestamp": "2025-07-21T08:57:29.272511"
+}

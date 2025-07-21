@@ -1,0 +1,44 @@
+{
+  "session_id": "call_20250721_085730",
+  "farmer_profile": {
+    "farmer_id": "farmer_003",
+    "name": "महेश शर्मा",
+    "location": "Rajasthan",
+    "farm_size": 12.0,
+    "crops": [
+      "mustard",
+      "barley"
+    ],
+    "annual_income": 450000,
+    "education_level": "Graduate",
+    "age": 35,
+    "language_preference": "hi",
+    "skepticism": 0.2
+  },
+  "analysis": {
+    "farmer_sentiment": "neutral",
+    "interest_level": "high",
+    "intro_clarity": true,
+    "objections": [
+      "cost_concern"
+    ],
+    "call_outcome": "follow_up",
+    "agent_effectiveness": 0.7,
+    "conversation_flow": {
+      "engagement": "high",
+      "understanding": "clear"
+    },
+    "emotional_indicators": [
+      "neutral"
+    ],
+    "farmer_responses": [
+      "Solar pump? Kitne paisa lagega aur kaise kaam karta hai?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?",
+      "Total cost kitni hai? Aur installments mein de sakte hain kya?"
+    ]
+  },
+  "agent_version": 3,
+  "improved_version": 4,
+  "timestamp": "2025-07-21T08:57:33.996670"
+}

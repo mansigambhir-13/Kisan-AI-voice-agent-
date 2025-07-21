@@ -1,0 +1,37 @@
+{
+  "session_id": "call_20250721_045205",
+  "farmer_profile": {
+    "farmer_id": "farmer_002",
+    "name": "सुरेश पटेल",
+    "location": "Gujarat",
+    "farm_size": 8.0,
+    "crops": [
+      "cotton",
+      "groundnut"
+    ],
+    "annual_income": 300000,
+    "education_level": "Secondary",
+    "age": 38,
+    "language_preference": "hi",
+    "skepticism": 0.4
+  },
+  "analysis": {
+    "farmer_sentiment": "neutral",
+    "interest_level": "medium",
+    "intro_clarity": true,
+    "objections": [],
+    "call_outcome": "follow_up",
+    "agent_effectiveness": 0.5,
+    "conversation_flow": {},
+    "emotional_indicators": [],
+    "farmer_responses": [
+      "Default response",
+      "Default response",
+      "Default response",
+      "Default response"
+    ]
+  },
+  "agent_version": 2,
+  "improved_version": 3,
+  "timestamp": "2025-07-21T04:52:18.185494"
+}
