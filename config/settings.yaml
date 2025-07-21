@@ -1,0 +1,60 @@
+# System Configuration
+system:
+  name: "Voice Agent Reinforcement Learning System"
+  version: "1.0.0"
+  environment: "development"  # development, staging, production
+  
+# API Configuration
+apis:
+  openai:
+    model: "gpt-4"
+    temperature: 0.7
+    max_tokens: 500
+    timeout: 30
+  
+  deepgram:
+    model: "nova-2"
+    language: "hi"  # Hindi
+    punctuate: true
+    diarize: true
+    smart_format: true
+    timeout: 60
+  
+  elevenlabs:
+    voice_id: "pNInz6obpgDQGcFmaJgB"  # Hindi voice
+    model_id: "eleven_multilingual_v2"
+    voice_settings:
+      stability: 0.5
+      similarity_boost: 0.5
+      style: 0.3
+      use_speaker_boost: true
+
+# System Limits
+limits:
+  max_concurrent_calls: 5
+  max_call_duration: 300  # seconds
+  max_conversation_turns: 6
+  effectiveness_threshold: 0.6
+  audio_file_size_mb: 25
+  
+# Paths
+paths:
+  audio_output: "data/output/audio_files"
+  call_logs: "data/output/call_logs"
+  reports: "data/output/reports"
+  temp: "data/temp"
+  
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "data/output/system.log"
+  max_file_size: "10MB"
+  backup_count: 5
+
+# Learning Configuration
+learning:
+  min_effectiveness_improvement: 0.05
+  max_improvements_per_iteration: 3
+  learning_rate: 0.1
+  memory_window: 10  # Remember last N conversations
