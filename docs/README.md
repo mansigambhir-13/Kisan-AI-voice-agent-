@@ -10,7 +10,7 @@
 **A production-ready voice-based AI agent that conducts intelligent conversations with farmers about government solar schemes, learns from each interaction through reinforcement learning, and automatically optimizes its approach for maximum agricultural outreach effectiveness.**
 
 ## 🎬 Visual Recording Demo 
-[Watch Demo Video - System in Action](https://your-demo-link.com)
+https://www.loom.com/share/054f027022d94b958e7765e55ecf77ad?sid=5637a049-35c8-41b7-97cd-29a0c56985fd
 
 ## Deployed link 
 https://kisan-ai-voice-agent-9ouiashtz-mansis-projects-a3d08955.vercel.app/
