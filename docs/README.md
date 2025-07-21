@@ -25,12 +25,6 @@ This project fulfills the **Agricultural AI Voice Agent Task** requirements:
 ✅ **Reinforcement Learning Loop** - Automatic agent improvement based on conversation analysis  
 ✅ **Production Integration** - Real Deepgram, ElevenLabs, and OpenAI GPT-4 implementation  
 
-## 🖥️ Web Interface Screenshots
-![Main Interface](https://via.placeholder.com/800x300/2196F3/FFFFFF?text=Main+Conversation+Interface)
-*Main conversation interface with real-time farmer interaction*
-
-![Analytics Dashboard](https://via.placeholder.com/800x300/FF9800/FFFFFF?text=Analytics+Dashboard)
-*Performance analytics and learning progression tracking*
 
 ## 🚀 **Quick Start**
 
