@@ -15,11 +15,6 @@
 ## Deployed link 
 https://kisan-ai-voice-agent-9ouiashtz-mansis-projects-a3d08955.vercel.app/
 
-## 📊 System Dashboard
-
-<img width="1209" height="886" alt="image" src="https://github.com/user-attachments/assets/8ff99af4-4cf0-4f3d-b7bb-eb5ada6eaab8" />
-
-*Real-time performance monitoring and farmer interaction analytics*
 
 ## 🎯 **Assignment Overview**
 
