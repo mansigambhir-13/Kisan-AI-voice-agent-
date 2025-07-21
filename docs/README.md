@@ -12,12 +12,13 @@
 ## 🎬 Visual Recording Demo 
 [Watch Demo Video - System in Action](https://your-demo-link.com)
 
-## 📚 Complete Documentation 
-[Technical Documentation](https://your-docs-link.com)
+## Deployed link 
+https://kisan-ai-voice-agent-9ouiashtz-mansis-projects-a3d08955.vercel.app/
 
 ## 📊 System Dashboard
 
-![Kisan AI Dashboard](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Kisan+AI+Voice+Agent+Dashboard)
+<img width="1209" height="886" alt="image" src="https://github.com/user-attachments/assets/8ff99af4-4cf0-4f3d-b7bb-eb5ada6eaab8" />
+
 *Real-time performance monitoring and farmer interaction analytics*
 
 ## 🎯 **Assignment Overview**
