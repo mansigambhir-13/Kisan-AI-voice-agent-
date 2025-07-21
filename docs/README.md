@@ -15,7 +15,9 @@ https://www.loom.com/share/054f027022d94b958e7765e55ecf77ad?sid=5637a049-35c8-41
 ## Deployed link 
 https://kisan-ai-voice-agent-9ouiashtz-mansis-projects-a3d08955.vercel.app/
 
+## Documentation
 
+https://docs.google.com/document/d/12Wc08dPYm7DUK_TsKkdALUuRVhbmI6H48IMFHWncxF8/edit?usp=sharing
 ## 🎯 **Assignment Overview**
 
 This project fulfills the **Agricultural AI Voice Agent Task** requirements:
