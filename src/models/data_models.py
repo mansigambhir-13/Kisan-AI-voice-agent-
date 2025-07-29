@@ -147,8 +147,8 @@ class FarmerProfileAPI(BaseModel):
     """API model for farmer profile"""
     name: str = Field(..., min_length=2, max_length=100)
     age: int = Field(..., ge=18, le=100)
-    education: str = Field(..., regex="^(low|medium|high)$")
-    income: str = Field(..., regex="^(low|medium|high)$")
+    education: str = Field(..., pattern="^(low|medium|high)$")
+    income: str = Field(..., pattern="^(low|medium|high)$")
     location: str = Field(..., min_length=2, max_length=100)
     crops: List[str] = Field(..., min_items=1)
     land_size: str = Field(..., min_length=1)
@@ -158,10 +158,10 @@ class FarmerProfileAPI(BaseModel):
 
 class CallAnalysisAPI(BaseModel):
     """API model for call analysis"""
-    sentiment: str = Field(..., regex="^(positive|neutral|negative)$")
-    interest_level: str = Field(..., regex="^(high|medium|low|confused)$")
+    sentiment: str = Field(..., pattern="^(positive|neutral|negative)$")
+    interest_level: str = Field(..., pattern="^(high|medium|low|confused)$")
     intro_clarity: bool
     objections: List[str] = Field(default_factory=list)
-    call_outcome: str = Field(..., regex="^(success|failure|follow_up)$")
+    call_outcome: str = Field(..., pattern="^(success|failure|follow_up)$")
     agent_effectiveness: float = Field(..., ge=0.0, le=1.0)
     emotional_indicators: List[str] = Field(default_factory=list)

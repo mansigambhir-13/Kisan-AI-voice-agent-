@@ -1,0 +1,134 @@
+{
+  "system": {
+    "name": "Voice Agent Reinforcement Learning System",
+    "version": "1.0.0",
+    "description": "Self-improving voice agent for farmer outreach campaigns"
+  },
+  "voice_agent": {
+    "default_prompt": {
+      "content": "You are a helpful voice agent calling farmers about the PM-KUSUM solar scheme. Your goal is to explain the benefits and encourage farmers to apply. Key points to cover: 1. Introduce yourself and the scheme 2. Explain the subsidy benefits (50-90% depending on income) 3. Address common concerns about government schemes 4. Provide clear next steps for application. Be respectful, patient, and address farmer concerns directly.",
+      "version": "v1.0",
+      "performance_metrics": {
+        "success_rate": 0.0,
+        "avg_confidence": 0.0
+      }
+    },
+    "conversation_settings": {
+      "max_turns": 6,
+      "response_delay": 1.5,
+      "intro_duration": 2.0,
+      "benefits_duration": 3.0,
+      "objection_duration": 2.5
+    }
+  },
+  "analysis": {
+    "sentiment_keywords": {
+      "positive": ["acha", "good", "interested", "apply", "details", "subsidy", "benefit", "zaroor", "batayiye"],
+      "negative": ["nahi", "no", "fake", "waste", "busy", "complicated", "expensive", "pareshan", "dhokha"],
+      "confusion": ["samajh nahi aaya", "confused", "complicated", "kaise", "kya", "simple mein"]
+    },
+    "interest_indicators": {
+      "high": ["interested", "apply", "details", "process", "subsidy", "zaroor", "batayiye"],
+      "low": ["nahi", "no", "busy", "waste", "fake", "time nahi"],
+      "confused": ["samajh nahi", "confused", "complicated", "kaise", "kya"]
+    },
+    "objection_patterns": [
+      "fake", "waste", "complicated", "expensive", "busy", "nahi", "no",
+      "samajh nahi", "confused", "time waste", "difficult", "paisa"
+    ],
+    "confidence_calculation": {
+      "base_confidence": 0.3,
+      "farmer_turn_weight": 0.1,
+      "text_length_weight": 0.001,
+      "max_confidence": 0.9
+    }
+  },
+  "farmer_profiles": {
+    "names": [
+      "Ram Singh", "Lakshmi Devi", "Mohan Kumar", "Sita Ram", "Ramesh Patel",
+      "Krishna Yadav", "Sunita Sharma", "Rajesh Kumar", "Anita Patel", "Vikram Singh"
+    ],
+    "locations": [
+      "Punjab", "Haryana", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan",
+      "Gujarat", "Maharashtra", "Karnataka", "Tamil Nadu", "Kerala"
+    ],
+    "crops": [
+      ["wheat", "rice"],
+      ["cotton", "sugarcane"],
+      ["pulses", "vegetables"],
+      ["maize", "wheat"],
+      ["bajra", "jowar"],
+      ["groundnut", "sesame"],
+      ["potato", "onion"],
+      ["tomato", "chilli"]
+    ],
+    "demographics": {
+      "age_range": [35, 65],
+      "education_levels": ["low", "medium", "high"],
+      "income_levels": ["low", "medium", "high"],
+      "land_size_range": [2, 20],
+      "family_size_range": [4, 8],
+      "skepticism_range": [0.2, 0.8]
+    }
+  },
+  "reinforcement_learning": {
+    "performance_tracking": {
+      "history_size": 10,
+      "metrics": ["success_rate", "avg_confidence", "sentiment_score", "interest_score"]
+    },
+    "improvement_strategies": {
+      "trust_building": {
+        "trigger": "negative_sentiment",
+        "action": "Add government verification details to introduction"
+      },
+      "simplification": {
+        "trigger": "confused_interest",
+        "action": "Simplify explanation of benefits and add concrete examples"
+      },
+      "skepticism_handling": {
+        "trigger": "high_skepticism",
+        "action": "Address skepticism more directly with proof points"
+      },
+      "objection_handling": {
+        "trigger": "fake_objection",
+        "action": "Add government verification details"
+      },
+      "process_clarity": {
+        "trigger": "complicated_objection",
+        "action": "Simplify application process explanation"
+      }
+    },
+    "prompt_evolution": {
+      "version_format": "v{major}.{minor}",
+      "improvement_tracking": true,
+      "performance_baseline": 0.5
+    }
+  },
+  "reporting": {
+    "call_summary": {
+      "enabled": true,
+      "include_transcript": false,
+      "include_analysis": true,
+      "include_improvements": true
+    },
+    "performance_metrics": {
+      "success_rate": true,
+      "confidence_score": true,
+      "sentiment_distribution": true,
+      "interest_distribution": true,
+      "objection_frequency": true
+    },
+    "learning_progress": {
+      "prompt_versions": true,
+      "improvement_suggestions": true,
+      "performance_trends": true
+    }
+  },
+  "simulation": {
+    "default_cycles": 5,
+    "random_seed": 42,
+    "verbose_output": true,
+    "save_sessions": false,
+    "export_results": false
+  }
+}
