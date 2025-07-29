@@ -1,0 +1,66 @@
+{
+  "timestamp": "20250729_235348",
+  "farmer_profile": {
+    "id": "demo_farmer_001",
+    "name": "राम सिंह",
+    "age": 45,
+    "education": "low",
+    "income": "low",
+    "location": "राजस्थान, जोधपुर",
+    "crops": [
+      "गेहूं",
+      "बाजरा"
+    ],
+    "land_size": "5 एकड़",
+    "skepticism": 0.7,
+    "govt_experience": "कुछ योजनाओं में धोखा हुआ है",
+    "family_size": 6,
+    "preferred_language": "hindi",
+    "best_call_time": "morning"
+  },
+  "call_result": {
+    "conversation": [
+      "Namaste ji, main solar scheme ke baare mein baat karne ke liye call kar raha hun. Government ki PM-KUSUM yojana ke through aap apne khet mein solar pump lagwa sakte hain.",
+      "Arre bhai, ye sab scheme-veme mein bahut dhokha hota hai. Pehle bhi kaha tha koi, kuch nahi mila.",
+      "Bilkul samajh sakta hun aapki baat. Lekin ye government ki official scheme hai, 90% subsidy milti hai. Aap sirf 10% paisa lagayenge.",
+      "Nahi bhai, mujhe nahi chahiye. Time waste mat karo."
+    ],
+    "analysis": {
+      "sentiment": "negative",
+      "interest_level": "low",
+      "call_outcome": "failure",
+      "objections": [
+        "trust_issues"
+      ],
+      "intro_clarity": 0.7,
+      "agent_effectiveness": 0.5
+    }
+  },
+  "improvements": [
+    "Use more empathetic language to build trust",
+    "Address skepticism directly with success stories",
+    "Provide government documentation references",
+    "Mention local success cases",
+    "Simplify technical language",
+    "Focus on immediate benefits"
+  ],
+  "improved_prompt": {
+    "intro": "Namaste ji, main [Agent Name] bol raha hun. Main aapko government ki official PM-KUSUM solar scheme ke baare mein batana chahta hun. Ye scheme already hazaaron farmers ne successfully use ki hai.",
+    "benefits": [
+      "Government se 90% subsidy confirmed milegi",
+      "Aapka bijli ka bill 80% tak kam ho jayega",
+      "Paani ki problem permanently solve ho jayegi",
+      "Local office mein jakar verify kar sakte hain"
+    ],
+    "call_to_action": "Kya aap chahenge ki main aapko nearest office ka address aur process detail mein explain karun?",
+    "version": "1.1",
+    "improvements_applied": [
+      "Use more empathetic language to build trust",
+      "Address skepticism directly with success stories",
+      "Provide government documentation references",
+      "Mention local success cases",
+      "Simplify technical language",
+      "Focus on immediate benefits"
+    ]
+  }
+}
